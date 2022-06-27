@@ -40,6 +40,7 @@ p {
   border-radius: 4px;
   color: white;
   font-size: 18px;
+  font-family: var(--font-family);
   line-height: 27px;
   padding: 18px 10px;
 }
