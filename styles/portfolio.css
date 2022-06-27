@@ -1,13 +1,45 @@
+:root {
+  --branding-color: #cca8e9;
+  --font-family: "nunito", sans-serif;
+  --primary-color: #cadefc;
+  --secondary-color: #c3bef0;
+}
+
+body {
+  font-family: var(--default-font-family);
+}
+
 h1 {
   color: black;
-  font-family: "nunito", sans-serif;
+  font-family: var(--font-family);
   font-weight: 700px;
-  font-size: 64px;
-  line-height: 87px;
+  font-size: 72px;
+  line-height: 98px;
+  height: 98px;
+  margin-top: 50px;
 }
 p {
   color: black;
-  font-family: "nunito", sans-serif;
   font-weight: 400px;
   font-size: 18px;
+}
+
+.hero {
+  background: var(--primary-color);
+  text-align: center;
+  padding: 160px 0;
+}
+
+.hero h2 {
+  font-family: var(--font-family);
+  font-size: 30px;
+  font-weight: 400;
+}
+.btn-branding {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 18px 10px;
 }
