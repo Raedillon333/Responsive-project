@@ -7,6 +7,8 @@
 
 body {
   font-family: var(--default-font-family);
+  justify-content: center;
+  margin: 0 auto;
 }
 
 h1 {
@@ -18,16 +20,31 @@ h1 {
   height: 98px;
   margin-top: 50px;
 }
+
+h2 {
+  color: black;
+  font-family: var(--font-family);
+  font-size: 50px;
+}
+h3 {
+  font-family: var(--font-family);
+  font-size: 30px;
+  font-weight: 700px;
+  text-align: center;
+}
 p {
   color: black;
   font-weight: 400px;
   font-size: 18px;
+  font-family: var(--font-family);
+  font-size: 18px;
+  line-height: 30px;
 }
 
 .hero {
   background: var(--primary-color);
   text-align: center;
-  padding: 160px 0;
+  padding: 60px 0;
 }
 
 .hero h2 {
@@ -43,4 +60,24 @@ p {
   font-family: var(--font-family);
   line-height: 27px;
   padding: 18px 10px;
+}
+
+.img-fluid {
+  width: 400px;
+  height: auto;
+  padding: 30px;
+  background-color: var(--secondary-color);
+}
+
+.about-description {
+  padding: 120px 60px;
+}
+
+.projects {
+  margin-top: 40px;
+}
+
+#proj {
+  height: 350px;
+  width: auto;
 }
