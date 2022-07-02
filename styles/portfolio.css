@@ -3,6 +3,7 @@
   --font-family: "nunito", sans-serif;
   --primary-color: #cadefc;
   --secondary-color: #c3bef0;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
@@ -66,7 +67,7 @@ p {
   width: 400px;
   height: auto;
   padding: 30px;
-  border-radius: 4px;
+  display: flex;
 }
 
 .about-description {
@@ -80,4 +81,24 @@ p {
 #proj {
   height: 350px;
   width: auto;
+}
+
+.project-img {
+  width: 0 auto;
+}
+
+.primary-link {
+  background: var(--branding-color);
+  color: white;
+  text-decoration: none;
+  margin-left: 150px;
+  justify-content: center;
+  display: inline;
+  margin-top: 15px;
+  box-shadow: var(--box-shadow);
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: var(--font-family);
 }
