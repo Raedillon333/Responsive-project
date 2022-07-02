@@ -139,9 +139,6 @@ p {
     line-height: 10px;
   }
 
-  .about-paragraph {
-    font-size: 18px;
-  }
   h2 {
     font-size: 45px;
     text-align: center;
@@ -158,9 +155,14 @@ p {
   .about-paragraph {
     text-align: center;
     margin: 0 auto;
-    font-size: 22px;
+    font-size: 18px;
     padding: 0;
     display: flex;
+    justify-content: center;
+  }
+
+  .about-description {
+    padding: 50px 20px;
     justify-content: center;
   }
   .primary-link {
