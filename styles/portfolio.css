@@ -117,8 +117,9 @@ p {
 
 @media (max-width: 900px) {
   h1 {
-    font-size: 35px;
-    height: 65px;
+    font-size: 45px;
+    height: 30px;
+    line-height: 10px;
   }
 
   .about-paragraph {
@@ -127,11 +128,11 @@ p {
     margin-left: 25px;
   }
   h2 {
-    font-size: 40px;
+    font-size: 45px;
     text-align: center;
   }
   .projects {
-    margin-top: 20px;
+    margin-top: -40px;
   }
 
   .socials {
@@ -139,10 +140,12 @@ p {
     margin-left: 20px;
   }
 
-  .about-description {
-    padding: 60px 0px;
+  .about-paragraph {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 22px;
+    padding: 0;
   }
-
   .primary-link {
     display: flex;
     flex: 1;
@@ -155,5 +158,9 @@ p {
 
   .socials {
     text-align: center;
+  }
+
+  .about-description {
+    margin-top: -40px;
   }
 }
