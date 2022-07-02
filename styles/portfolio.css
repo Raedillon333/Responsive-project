@@ -8,8 +8,6 @@
 
 body {
   font-family: var(--default-font-family);
-  justify-content: center;
-  margin: 0 auto;
 }
 
 h1 {
@@ -22,6 +20,10 @@ h1 {
   margin-top: 50px;
 }
 
+.p-3 {
+  text-align: center;
+  text-transform: capitalize;
+}
 h2 {
   color: black;
   font-family: var(--font-family);
@@ -40,6 +42,9 @@ p {
   font-family: var(--font-family);
   font-size: 18px;
   line-height: 30px;
+}
+.about-paragraph {
+  font-size: 20px;
 }
 
 .hero {
@@ -61,6 +66,7 @@ p {
   font-family: var(--font-family);
   line-height: 27px;
   padding: 18px 10px;
+  text-transform: capitalize;
 }
 
 .img-fluid {
@@ -91,7 +97,6 @@ p {
   background: var(--branding-color);
   color: white;
   text-decoration: none;
-  margin-left: 150px;
   justify-content: center;
   display: inline;
   margin-top: 15px;
@@ -101,4 +106,54 @@ p {
   text-decoration: none;
   text-transform: capitalize;
   font-family: var(--font-family);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 35px;
+    height: 65px;
+  }
+
+  .about-paragraph {
+    font-size: 18px;
+    padding-left: 25px;
+    margin-left: 25px;
+  }
+  h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .projects {
+    margin-top: 20px;
+  }
+
+  .socials {
+    padding-left: 25px;
+    margin-left: 20px;
+  }
+
+  .about-description {
+    padding: 60px 0px;
+  }
+
+  .primary-link {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+  }
+  .img-fluid {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .socials {
+    text-align: center;
+  }
 }
