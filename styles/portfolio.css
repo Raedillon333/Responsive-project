@@ -150,20 +150,10 @@ p {
 }
 
 .about-section-content {
-  margin: 30px;
+  margin: 50px;
 }
 
-@media (max-width: 700px) {
-  h1 {
-    font-size: 45px;
-    height: 30px;
-    line-height: 10px;
-  }
-
-  h2 {
-    font-size: 45px;
-    text-align: center;
-  }
+@media (max-width: 1000px) {
   .projects {
     margin-top: -40px;
   }
@@ -213,10 +203,32 @@ p {
   }
 
   .about-section h1 {
-    font-size: 48px;
-    padding-top: 39px;
+    font-size: 52px;
+    margin: 10px 20px;
   }
+
   .about-section h2 {
-    padding-top: 46px;
+    font-size: 30px;
+    margin-top: -15px;
+  }
+}
+
+@media (max-width: 760px) {
+  .about-section h1 {
+    font-size: 39px;
+    padding: 10px 10px;
+    margin: 15px 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .about-section h1 {
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .about-section h2 {
+    padding-top: 60px;
   }
 }
