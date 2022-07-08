@@ -35,7 +35,8 @@ h3 {
   font-weight: 700px;
   text-align: center;
 }
-p {
+p,
+h4 {
   color: black;
   font-weight: 400px;
   font-size: 18px;
@@ -76,6 +77,25 @@ p {
   border-color: var(--secondary-color);
 }
 
+.btn-primary {
+  background: var(--branding-color);
+  border-radius: 4px;
+  border-color: var(--branding-color);
+  color: white;
+  font-size: 18px;
+  font-family: var(--font-family);
+  line-height: 27px;
+  padding: 18px 10px;
+  text-transform: capitalize;
+  display: block;
+  margin: 50px auto;
+}
+
+.btn-primary:hover {
+  background: var(--secondary-color);
+  color: white;
+  border-color: var(--secondary-color);
+}
 .img-fluid {
   width: 400px;
   height: auto;
@@ -84,18 +104,17 @@ p {
 
 .about-description {
   padding: 120px 60px;
+  justify-content: center;
+  display: block;
+  align-items: center;
 }
-
+.container {
+  margin: 0 auto;
+  justify-content: center;
+}
 .primary-link:hover {
   background: var(--secondary-color);
   color: white;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
 }
 
 .about-section {
@@ -154,6 +173,7 @@ p {
   }
 
   .about-description {
+    margin: 0 auto;
     padding: 50px 20px;
     justify-content: center;
   }
@@ -206,7 +226,4 @@ p {
     font-size: 22px;
   }
 
-  .about-description {
-    margin: -120px -120px;
-  }
-}
+ 
