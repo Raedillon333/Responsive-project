@@ -149,7 +149,8 @@ h4 {
   margin-top: 50px;
 }
 .work-container {
-  margin: 100px;
+  display: block;
+  margin: 0px auto;
 }
 
 .text-center {
@@ -238,6 +239,9 @@ h4 {
     font-size: 30px;
     margin-top: -15px;
   }
+  .about-me {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 375px) {
@@ -245,10 +249,23 @@ h4 {
     margin: 30px 30px;
     line-height: 50pxpx;
   }
-}
 
-@media (max-width: 1000px) {
-  .about-paragraph {
-    font-size: 22px;
+  @media (max-width: 1000px) {
+    .about-paragraph {
+      font-size: 22px;
+      text-align: center;
+    }
+
+    .about-me {
+      justify-content: center;
+    }
+
+    .socials {
+      text-align: center;
+    }
+
+    .social-links {
+      text-align: center;
+    }
   }
 }
