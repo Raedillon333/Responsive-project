@@ -145,18 +145,26 @@ h4 {
   font-weight: 700px;
   font-size: 72px;
   line-height: 98px;
-  height: 98px;
-  margin-top: 50px;
+  margin-bottom: 100px;
 }
 .work-container {
-  display: block;
-  margin: 0px auto;
+  padding: 120px 60px;
+}
+.work-container .img-fluid {
+  display: flex;
+  flex: 1;
+  margin: 20px;
 }
 
 .text-center {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+}
+
+.work-paragraph {
+  display: flex;
+  flex: 1;
 }
 
 @media (max-width: 900px) {
