@@ -142,18 +142,18 @@ h4 {
 .work-description {
   color: black;
   font-family: var(--font-family);
-  font-weight: 700px;
+  font-weight: bolder;
   font-size: 72px;
   line-height: 98px;
   margin-bottom: 100px;
 }
-.work-container {
-  padding: 120px 60px;
-}
+
 .work-container .img-fluid {
-  display: flex;
+  display: block;
+  justify-content: center;
   flex: 1;
-  margin: 20px;
+  margin: 0 auto;
+  background: var(--branding-color);
 }
 
 .text-center {
@@ -161,10 +161,17 @@ h4 {
   flex-wrap: wrap;
   align-items: center;
 }
+.work-container h3 {
+  font-weight: bold;
+  line-height: 40px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
 
-.work-paragraph {
-  display: flex;
-  flex: 1;
+.work-container p {
+  text-align: center;
+  padding: 10px;
 }
 
 @media (max-width: 900px) {
@@ -250,30 +257,59 @@ h4 {
   .about-me {
     justify-content: center;
   }
+
+  .content {
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .work-content {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .work-container .img-fluid {
+    display: block;
+    margin: 0 auto;
+  }
+  .work-container h1 {
+    line-height: 98px;
+    margin-bottom: 150px;
+  }
 }
 
 @media (max-width: 375px) {
   h1 {
     margin: 30px 30px;
-    line-height: 50pxpx;
+    line-height: 50px;
+  }
+}
+@media (max-width: 1000px) {
+  .about-paragraph {
+    font-size: 22px;
+    text-align: center;
   }
 
-  @media (max-width: 1000px) {
-    .about-paragraph {
-      font-size: 22px;
-      text-align: center;
-    }
+  .about-me {
+    justify-content: center;
+  }
 
-    .about-me {
-      justify-content: center;
-    }
+  .socials {
+    text-align: center;
+  }
 
-    .socials {
-      text-align: center;
-    }
+  .social-links {
+    text-align: center;
+  }
 
-    .social-links {
-      text-align: center;
-    }
+  .work-description {
+    font-size: 58px;
+    font-weight: bolder;
+  }
+
+  .work-container h1 {
+    font-size: 40px;
+    line-height: 60px;
+    margin: 40px;
   }
 }
