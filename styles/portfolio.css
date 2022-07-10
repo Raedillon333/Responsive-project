@@ -250,7 +250,19 @@ footer h4 {
 footer p {
   margin: 0;
 }
+.social-links {
+  margin: 20px;
+  align-items: center;
+  color: var(--branding-color);
+  padding: 10px 14px;
+  font-size: 22px;
+  border-radius: 50px;
+  background-color: var(--secondary-color);
+}
 
+.m-5 {
+  text-align: center;
+}
 @media (max-width: 900px) {
   ul li {
     font-size: 18px;
