@@ -178,7 +178,41 @@ h4 {
   align-items: center;
 }
 
+.logo {
+  max-width: 250px;
+}
+
+nav {
+  padding: 10px 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  font-family: var(--font-family);
+  line-height: 80px;
+  font-size: 22px;
+}
+ul li {
+  padding: 4px;
+  margin: 0;
+}
+nav a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: black;
+  transition: all 90ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+
 @media (max-width: 900px) {
+  ul li {
+    font-size: 18px;
+  }
+
   h1 {
     font-size: 40px;
 
@@ -280,6 +314,23 @@ h4 {
     line-height: 98px;
     margin-bottom: 150px;
   }
+
+  .logo {
+    max-width: 200px;
+    max-height: auto;
+  }
+  nav {
+    padding: 0px;
+  }
+
+  .hero {
+    padding: 20px;
+    margin: 0px;
+  }
+  .logo-small {
+    margin: 0 auto;
+    display: block;
+  }
 }
 
 @media (max-width: 375px) {
@@ -287,7 +338,17 @@ h4 {
     margin: 30px 30px;
     line-height: 50px;
   }
+
+  ul li {
+    font-size: 16px;
+  }
+
+  .logo-small {
+    margin: 0 auto;
+    display: block;
+  }
 }
+
 @media (max-width: 1000px) {
   .about-paragraph {
     font-size: 22px;
