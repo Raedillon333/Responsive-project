@@ -259,10 +259,13 @@ footer p {
   border-radius: 50px;
   background-color: var(--secondary-color);
 }
-
+footer a {
+  text-decoration: none;
+}
 .m-5 {
   text-align: center;
 }
+
 @media (max-width: 900px) {
   ul li {
     font-size: 18px;
@@ -410,6 +413,14 @@ footer p {
     margin: 0 auto;
     display: block;
   }
+  .socials {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .socials p {
+    margin-top: 40px;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -439,5 +450,8 @@ footer p {
     font-size: 40px;
     line-height: 60px;
     margin: 40px;
+  }
+  .projects-container .work {
+    margin-top: 86px;
   }
 }
