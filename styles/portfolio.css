@@ -266,6 +266,12 @@ footer a {
   text-align: center;
 }
 
+.hero h1 {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
 @media (max-width: 900px) {
   ul li {
     font-size: 18px;
@@ -335,7 +341,8 @@ footer a {
   .hero {
     padding: 80px 20px;
   }
-
+  .hero h1 {
+  }
   .about-section {
     text-align: center;
     padding: 0px;
