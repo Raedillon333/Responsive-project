@@ -263,7 +263,8 @@ footer a {
   text-decoration: none;
 }
 .m-5 {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .hero h1 {
@@ -341,8 +342,7 @@ footer a {
   .hero {
     padding: 80px 20px;
   }
-  .hero h1 {
-  }
+
   .about-section {
     text-align: center;
     padding: 0px;
