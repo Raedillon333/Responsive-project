@@ -45,7 +45,7 @@ h4 {
   line-height: 30px;
 }
 .about-paragraph {
-  font-size: 28px;
+  font-size: 20px;
 }
 
 .hero {
@@ -235,6 +235,10 @@ footer .social-links-footer a {
   font-size: 22px;
   border-radius: 50px;
   background-color: var(--secondary-color);
+}
+
+a{
+  text-decoration: none;
 }
 
 footer .social-links-footer a:hover {
